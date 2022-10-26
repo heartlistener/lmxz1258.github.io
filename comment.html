@@ -6,30 +6,36 @@
             Comments_Page
         </title>
         <style>
-            .comments{
-                font-family:"楷体";
-                text-align: center;
-            }
+        .comments{
+        text-align: center;
+        }
+        #commend{
+            font-family: "楷书";
+        }
         </style>
 
     </head>
 
-    <body >
+    <body style="background:url(https://i.imgtg.com/2022/10/21/PzRtK.webp); background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-color: #CCCCCC;">
         <div class="comments">
             <h1>评论区</h1><hr>
-            <div id="cyQing" role="cylabs" data-use="qing"></div>
+            <textarea id="typing"></textarea><br><br>
+            <button id="btn">发送评论</button>
+            <div id="commend">
+                <p>由于保留评论需要数据库和服务器的知识，暂时无法完成,请谅解。</p>
+                <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201112%2F17%2F20111217111225_ny28V.thumb.400_0.gif&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1669295210&t=a439f3394f780c3ea82bf4627afb26d9">
+            </div>
         </div>
-        <!--PC版-->
-    <div id="SOHUCS"></div>
-    <script charset="utf-8" type="text/javascript" src="https://cy-cdn.kuaizhan.com/upload/changyan.js" ></script>
-    <script type="text/javascript">
-        window.changyan.api.config({
-        appid: 'cywlrAqFU',
-        conf: 'prod_7691c428a3dc88872c388f4169d5decf'
-    });
-    </script>
-
     </body>
    
-
+    <script>
+        document.getElementById("btn").onclick=function(){send()};//设置按钮触发事件（函数send（））
+        function send(){
+            var g=new Date();//获取时间
+            var value= document.getElementById("typing").value;//获得文本框里的内容
+            var p= document.createElement("p");//创建新元素，也即结点
+            p.innerHTML='<hr>'+value+'<br>'+g.toUTCString();//往结点里塞内容
+            document.getElementById("commend").prepend(p); //向指定内容（此处是id"commend"）里添加子节点，作为第一个结点。   
+        }
+    </script>
 </html>
