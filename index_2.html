@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html><!--开始标签--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <head>    
+        <title>
+            Main_Page
+        </title>
+        <link rel="icon"href="https://i.imgtg.com/2022/09/15/yy6KU.jpg" sizes="16x16">
+        <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        a{text-decoration:none}
+        a:hover{text-decoration:none}
+        html,body{
+            height:100%;
+        }
+        .box{
+            min-height:100%;
+            position:relative;
+        }
+        .header{
+            text-align:center;
+            padding: 30px;
+            font-family:"楷体";
+            border-bottom: 2px solid rgba(110, 106, 106, 0.8);
+        }
+        .sharing{
+            font-family:"楷体";
+            text-align:center;
+            padding: 30px;
+        }
+        .footer{
+            font-family:arial;
+            font-size: 15px;
+            position:absolute;
+            bottom:0;
+            width:100%;
+            text-align:center;
+        }
+        .head{
+            text-align: center;
+        }
+        #fenxiang{
+            display: inline;
+            padding: 8px;
+            border: 2px solid black;
+            color:black;
+        }
+        </style>
+    </head>
+    <body style="background:url(https://i.imgtg.com/2022/10/21/PzRtK.webp); background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-color: #CCCCCC;">
+        <div class="box">
+            <div class="header">
+                <h1 >聆明心主的网络世界</h1>
+            </div>
+            <div class="head">
+                <div class="title-text">
+                    <!--<span onclick="dogo()">
+                        <img class="auto" src="me.png">
+                    </span>
+                    <audio id="dogo"></audio>-->
+                    <a onclick="javascript:dogo();"><img class="auto" src="me.png"></a>
+                </div>                
+            </div>
+            <div class="sharing">
+                <a text-decoration:none target="_blank" href="https://lmxz1258.github.io/sharing.html" style="color:blue;font-size:18px;">
+                    <h2 id="fenxiang">资料分享</h2>   
+                </a>
+                <a text-decoration:none target="_blank" href="https://flowus.cn/sharing/share/919d7617-5973-4b1d-b1ce-15effce73bb5" style="color:blue;font-size:18px;">
+	                <h2 id="fenxiang">常用工具</h2>
+                </a>
+                <br>
+                <br>
+                <br>
+                <!--<a text-decoration:none target="_blank" href="https://lmxz1258.github.io/comment.html" style="color:blue;font-size:18px;">
+	                <h2 id="fenxiang">发布评论</h2>
+                </a>-->
+                <a text-decoration:none target="_blank" href="https://www.wenshushu.cn/" style="color:blue;font-size:18px;">
+	                <h2 id="fenxiang">文件传递</h2>
+                </a>
+                <a text-decoration:none target="_blank" href="https://www.bilibili.com/video/BV1ks41117be/?spm_id_from=333.337.search-card.all.click" style="color:blue;font-size:18px;">
+	                <h2 id="fenxiang">动漫推荐</h2>
+                </a>
+                <br>
+                <br>
+                <br>
+                <a text-decoration:none target="_blank" href="https://www.alipansou.com/" style="color:blue;font-size:18px;">
+	                <h2 id="fenxiang">云盘资源</h2>
+                </a>
+                <a text-decoration:none target="_blank" href="https://find.looks.wang/zlibrary.html" style="color:blue;font-size:18px;">
+	                <h2 id="fenxiang">书籍资源</h2>
+                </a>
+                <br>
+                <br>
+                <br>
+                <a text-decoration:none target="_blank" href="https://www.draw.io/" style="color:blue;font-size:18px;">
+	                <h2 id="fenxiang">流程绘图</h2>
+                </a>
+                <a text-decoration:none target="_blank" href="https://flowus.cn/sharing/share/21562e27-6bad-47c3-a89e-cb0c5f5e653d" style="color:blue;font-size:18px;">
+	                <h2 id="fenxiang">外刊精选</h2>
+                </a>
+            </div>
+            <div class="footer">
+                <p>网站地址:lmxz.eu.org 有问题请发邮件至1078897881@qq.com</p>
+            </div>
+        </div>
+    </body>
+    <script>
+        var bgaudiocount = 0;
+        function bgaudio(){       
+            ++bgaudiocount;
+            if(bgaudiocount % 2 == 1){   
+                document.getElementById("bgaudio").play();      
+            }else{
+                document.getElementById("bgaudio").pause();
+            } 
+        }
+        function dogo(){
+        var urls = new Array();
+        urls[0] = "music/traveling light.mp3";
+        urls[1] = "music/Carissa Rae - Near or Far.mp3";
+        urls[2] = "music/Amy Diamond、Robert Habolin - Heartbeats.mp3";
+        urls[3] = "music/Anson Seabra - Peter Pan Was Right.mp3";
+        urls[4] = "music/Anya Taylor-Joy - You’re My World.mp3";
+        urls[5] = "music/Ed Sheeran - Celestial.mp3";
+        urls[6] = "music/Lenka - Unique.mp3";
+        urls[7] = "music/LiSA - crossing field (交叉领域).mp3";
+        urls[8] = "music/Marie Miller - 6-2 (Radio Mix).mp3";
+        urls[9] = "music/Martin Garrix、David Guetta、Jamie Scott、Romy Dya - So Far Away.mp3";
+        urls[10] = "music/Rachel Platten - Fight Song.mp3";
+        urls[11] = "music/Sondia - 어른 (大人).mp3";
+        urls[12] = "music/t.A.T.u. - Loves Me Not.mp3";
+        urls[13] = "music/Tamas Wells - Valder Fields.mp3";
+        urls[14] = "music/Taylor Swift - Back To December.mp3";
+        urls[15] = "music/The Calling.mp3";
+        urls[16] = "music/户越Magome - 空に光る (天空中闪烁着光) (Remix).mp3";
+        urls[17] = "music/花海.mp3";
+        urls[18] = "music/蓑部雄崇 - 十代のテーマ (十代之曲).mp3";
+        urls[19] = "music/像风一样.mp3";
+        urls[20] = "music/新時代 (ウタ from ONE PIECE FILM RED).mp3";
+        urls[21] = "music/银临 - 棠梨煎雪.mp3";
+        urls[22] = "music/折户伸治 - 潮鳴り (潮鸣).mp3";
+        urls[23] = "music/빈센트 블루 - 무지개는 있다 (有彩虹) (Band Ver.).mp3";
+        n = Math.floor(Math.random()*24);
+        location.href= urls[n];
+        }
+    </Script>
+</html>
+
+ <!--结束标签-->
+
+<!--
+    标题标签
+        <h1>一级标签</h1>
+        <h2>二级标签</h2>
+        <h3>三级标签</h3>
+        <h4>四级标签</h4>
+        <h5>五级标签</h5>
+        <h6>六级标签</h6>
+    段落标签
+        <p>正文文本内容</p>
+    文本样式标签
+        <p>
+            <b>加粗</b>
+            <i>斜体</i>
+            x<sub>2(下标)</sub>
+            <del>删除线</del>
+            <br/>下一行
+        </p>
+    列表标签
+        无序列表
+            <ur>
+                <li>列表项</li>
+                <li>列表项</li>
+                <li>列表项</li>
+            </ur>
+        有序列表
+            <ol>
+                <li>列表项</li>
+                <li>列表项</li>
+                <li>列表项</li>
+            </ol>
+    超链接
+        <a href="http://www.bilibili.com">b站</a>
+    图片标签
+        <img src="./image.jpg"/>
+    视频标签
+        <video src="./video.mp4" controls></video>
+    音频标签
+        <audio src="./music.mp3" controls></audio>
+    分组标签
+        <div>
+            <h3>卡片标题</h3>
+            <p>卡片内容</p>
+        </div>
+    布局标签(本质就是div)
+        <header>头部信息
+        <nav>导航栏
+        <aside>侧边栏
+        <main>内容区域
+        <footer>底部信息
+        <article>文章详情
+        <section>页面分区
+        -->
