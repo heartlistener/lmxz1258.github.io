@@ -56,10 +56,11 @@
             </div>
             <div class="head">
                 <div class="title-text">
-                    <span onclick="bgaudio()">
+                    <!--<span onclick="dogo()">
                         <img class="auto" src="me.png">
                     </span>
-                    <audio src="https://lmxz1258.github.io/music/traveling light.mp3" id="bgaudio"></audio>
+                    <audio id="dogo"></audio>-->
+                    <a onclick="javascript:dogo();"><img class="auto" src="me.png"></a>
                 </div>                
             </div>
             <div class="sharing">
@@ -114,6 +115,31 @@
             }else{
                 document.getElementById("bgaudio").pause();
             } 
+        }
+        function dogo(){
+        var urls = new Array();
+        urls[0] = "music/traveling light.mp3";
+        urls[1] = "music/Carissa Rae - Near or Far.mp3";
+        urls[2] = "music/Amy Diamond、Robert Habolin - Heartbeats.mp3";
+        urls[3] = "music/Anson Seabra - Peter Pan Was Right.mp3";
+        urls[4] = "music/Anya Taylor-Joy - You’re My World.mp3";
+        urls[2] = "music/Ed Sheeran - Celestial.mp3";
+        urls[3] = "music/Lenka - Unique.mp3";
+        urls[4] = "music/LiSA - crossing field (交叉领域).mp3";
+        urls[2] = "music/Marie Miller - 6-2 (Radio Mix).mp3";
+        urls[3] = "music/Martin Garrix、David Guetta、Jamie Scott、Romy Dya - So Far Away.mp3";
+        urls[4] = "music/traveling light.mp3";
+        urls[2] = "music/traveling light.mp3";
+        urls[3] = "music/traveling light.mp3";
+        urls[4] = "music/traveling light.mp3";
+        urls[2] = "music/traveling light.mp3";
+        urls[3] = "music/traveling light.mp3";
+        urls[4] = "music/traveling light.mp3";
+        urls[2] = "music/traveling light.mp3";
+        urls[3] = "music/traveling light.mp3";
+        urls[4] = "music/traveling light.mp3";
+        n = Math.floor(Math.random()*5);
+        location.href= urls[n];
         }
     </Script>
 </html>
