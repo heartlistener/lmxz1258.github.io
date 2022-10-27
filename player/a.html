@@ -130,7 +130,7 @@
        songName : "有彩虹",
      },
    ];
-   
+
    let song_Playing = false;
 
    function playSong()
@@ -142,7 +142,7 @@
    }
    function pauseSong(){
      song_Playing = false;
-     aidop.pasue();
+     audio.pasue();
      playPause.classList.remove('active')
      playPause.innerHTML = '<ion-icon name="play-outline"></ion-icon>';
    }
