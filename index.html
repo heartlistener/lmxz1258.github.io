@@ -53,7 +53,7 @@
         .head{
             text-align: center;
             float :left;
-            width :350px;
+            width :355px;
             height : 200px;
             padding: 5px;
             border: 2px solid #fff;
@@ -88,7 +88,7 @@
             margin: 0 auto;
         }
         .container{
-            width:350px;
+            width:360px;
             height:220px;
             margin: 0 auto;
             padding: 60px 20px 30px 20px;
@@ -102,12 +102,9 @@
             </div>
         <div class="container">
             <div class="head">
-                <div class="title-text">
-                    <span onclick="bgaudio()">
-                        <img class="auto" src="me.png">
-                    </span>
-                    <audio src="https://lmxz1258.github.io/music/traveling light.mp3" id="bgaudio"></audio>
-                </div>                
+                <a href="play/music.html">
+                <img class="auto" src="lmxz.png">
+                </a>             
             </div>
         </div>
             <div id="item">
@@ -168,15 +165,4 @@
             </div>
         </div>
     </body>
-    <script>
-        var bgaudiocount = 0;
-        function bgaudio(){       
-            ++bgaudiocount;
-            if(bgaudiocount % 2 == 1){   
-                document.getElementById("bgaudio").play();      
-            }else{
-                document.getElementById("bgaudio").pause();
-            } 
-        }
-    </Script>
 </html>
