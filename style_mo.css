@@ -14,19 +14,20 @@ html,body{
 .header{
     text-align:center;
     padding: 15px;
-    font-family:"楷体";
+    font-family:"Simsun";
+    font-weight: 799;
     font-size:30px;
     color:#38a7ff;
     background:#fbfbfb;
-    border: 2px solid #fff;
+    border: 2px solid #ccc;
     box-shadow:
-            10px 10px 10px rgba(0,0,0,0.1),
-            inset 0px 2px 8px #CCCCCC,
-            inset 4px 4px 4px rgba(0,0,0,0.1);
+            7px 10px 15px rgba(0,0,0,0.1),
+            inset 0px 0px 0px #CCCCCC,
+            inset 0px 0px 0px rgba(0,0,0,0.1);
 }
 .sharing{
     padding: 10px;
-    width:770px;
+    width:750px;
     float: left;
     text-align: center;
 }
@@ -49,7 +50,7 @@ html,body{
     width :680px;
     height : 380px;
     padding: 40px 0px 0px 0px;
-    border: 2px solid #fff;
+    border: 4px solid #ccc;
     background: #fbfbfb;
     border-radius:47%;
     box-shadow:-4px -4px 6px #fff,
@@ -62,12 +63,13 @@ html,body{
 }
 #fenxiang{
     display: inline;
+    font-weight: 4000;
     font-size :40px;
     color:#38a7ff;
-    font-family:  "Ubuntu",sans-serif;
+    font-family: Simsun;
 }
 .kuai{
-    margin:px;
+    margin:0px;
     width:200px;
     min-height: 37px;
     padding: 20px;
@@ -83,7 +85,7 @@ html,body{
     
 }
 #item{
-    width: 600px;
+    width: 580px;
     margin: 0 auto;
 }
 .container{
