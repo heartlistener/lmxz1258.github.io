@@ -16,6 +16,7 @@ html,body{
     text-align:center;
     padding: 15px;
     font-family:"楷体";
+    font-weight: 600;
     color:#38a7ff;
     background:#fbfbfb;
     border: 2px solid #fff;
@@ -32,7 +33,8 @@ html,body{
 }
 .footer{
     font-family:arial;
-    font-size: 15px;
+    font-size: 17px;
+    color: #555;
     position:absolute;
     bottom:0;
     width:100%;
@@ -49,10 +51,10 @@ html,body{
     width :355px;
     height : 200px;
     padding: 5px;
-    border: 2px solid #fff;
+    border: 3px solid #bbb;
     background: #fbfbfb;
     border-radius: 150px;
-    box-shadow:-4px -4px 6px #fff,
+    box-shadow:-4px -4px 2px #fff,
         10px 10px 15px rgba(0,0,0,0.1),
         inset -5px -5px 15px #fff,
         inset 5px 5px 15px rgba(0,0,0,0.1);
@@ -60,14 +62,15 @@ html,body{
 #fenxiang{
     display: inline;
     color:#38a7ff;
-    font-family:  "Ubuntu",sans-serif;
+    font-weight: 500;
+    font-family:  "FZShuTi",sans-serif;
 }
 .kuai{
     margin: 0px 30px 0px -5px;
     width:130px;
     min-height: 37px;
     background:#fbfbfb;
-    border: 2px solid #fff;
+    border: 2px solid #ccc;
     float :left;
     text-align: center;
     box-shadow:-3px -3px 4px #fff,
