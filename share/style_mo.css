@@ -5,21 +5,22 @@
     margin: 0 auto;
 }
 .book{
-    font-family: "Simsun";
+    font-family: "STKaiti";
     font-size: 50px;
     width: 750px;
     height: 130px;
     line-height:30px;
     text-align: center;
+    border: 4px solid #aaa;
     overflow: hidden;
     background-color :#fff;
-    margin: 4px;
-    box-shadow:  inset 3px 5px 10px black,
+    margin: 12px;
+    box-shadow:  inset 3px 5px 15px black,
                 -4px -4px 5px white;
 }
 .book a{
     color:#000;
     text-decoration: none;
-    font-weight: 580;
+    font-weight: 600;
 }
 .book a:hover{text-decoration: none};
