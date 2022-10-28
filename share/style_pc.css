@@ -7,17 +7,19 @@
     font-family: "FZShuTi";
     font-size: 30px;
     width: 500px;
-    height: 70px;
+    height: 65px;
     line-height: 15px;
     text-align: center;
+    border :2px solid #bbb;
     overflow: hidden;
     background-color :#fff;
-    margin: 4px;
+    margin: 6px;
     box-shadow:  inset 3px 5px 10px black,
-                -4px -4px 5px white;
+                -2px -2px 1px white;
 }
 .book a{
-    color: #444;;
+    color: #000;;
+    font-weight: 550;
     text-decoration: none;
 }
 .book a:hover{text-decoration: none};
