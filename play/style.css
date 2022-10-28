@@ -21,8 +21,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
+    margin: 0 auto;
+    width:470px;
 }
 
 .title {
@@ -35,9 +35,10 @@ body {
 
 .player {
     position: relative;
-    width: 500px;
+    width: 450px;
     min-height: 100px;
     background:#fbfbfb;
+    float: left;
     border: 2px solid #fff;
     border-radius: 80px;
     padding: 20px 30px;
