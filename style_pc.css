@@ -14,7 +14,8 @@ html,body{
 .header{
     text-align:center;
     padding: 15px;
-    font-family:"¿¬Ìå";
+    font-family:"æ¥·ä½“";
+    font-size:30px;
     color:#38a7ff;
     background:#fbfbfb;
     border: 2px solid #fff;
@@ -25,13 +26,13 @@ html,body{
 }
 .sharing{
     padding: 10px;
-    width:380px;
+    width:770px;
     float: left;
     text-align: center;
 }
 .footer{
     font-family:arial;
-    font-size: 15px;
+    font-size: 30px;
     position:absolute;
     bottom:0;
     width:100%;
@@ -45,26 +46,32 @@ html,body{
 .head{
     text-align: center;
     float :left;
-    width :355px;
-    height : 200px;
-    padding: 5px;
+    width :680px;
+    height : 380px;
+    padding: 40px 0px 0px 0px;
     border: 2px solid #fff;
     background: #fbfbfb;
-    border-radius: 150px;
+    border-radius:47%;
     box-shadow:-4px -4px 6px #fff,
         10px 10px 15px rgba(0,0,0,0.1),
         inset -5px -5px 15px #fff,
         inset 5px 5px 15px rgba(0,0,0,0.1);
 }
+.auto{
+    height: 340px;
+}
 #fenxiang{
     display: inline;
+    font-size :40px;
     color:#38a7ff;
     font-family:  "Ubuntu",sans-serif;
 }
 .kuai{
-    margin: 0px 30px 0px -5px;
-    width:130px;
+    margin:px;
+    width:200px;
     min-height: 37px;
+    padding: 20px;
+    margin: 0px 20px 20px;
     background:#fbfbfb;
     border: 2px solid #fff;
     float :left;
@@ -76,12 +83,12 @@ html,body{
     
 }
 #item{
-    width: 300px;
+    width: 600px;
     margin: 0 auto;
 }
 .container{
-    width:360px;
-    height:220px;
+    width:700px;
+    height:450px;
     margin: 0 auto;
-    padding: 60px 20px 30px 20px;
+    padding: 80px 30px 60px 60px;
 }
