@@ -1,0 +1,23 @@
+.sharing{
+    text-align:center;
+    width: 500px;
+    margin: 0 auto;
+}
+.book{
+    font-family: "FZShuTi";
+    font-size: 30px;
+    width: 500px;
+    height: 70px;
+    line-height: 15px;
+    text-align: center;
+    overflow: hidden;
+    background-color :#fff;
+    margin: 4px;
+    box-shadow:  inset 3px 5px 10px black,
+                -4px -4px 5px white;
+}
+.book a{
+    color: #444;;
+    text-decoration: none;
+}
+.book a:hover{text-decoration: none};
