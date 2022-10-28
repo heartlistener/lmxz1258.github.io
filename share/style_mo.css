@@ -5,7 +5,7 @@
     margin: 0 auto;
 }
 .book{
-    font-family: "FZShuTi";
+    font-family: "Simsun";
     font-size: 50px;
     width: 750px;
     height: 130px;
@@ -18,8 +18,8 @@
                 -4px -4px 5px white;
 }
 .book a{
-    color:#333;
+    color:#000;
     text-decoration: none;
-    font-weight: 750;
+    font-weight: 580;
 }
 .book a:hover{text-decoration: none};
