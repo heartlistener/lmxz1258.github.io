@@ -12,19 +12,7 @@ html,body{
     min-height:100%;
     position:relative;
 }
-.header{
-    text-align:center;
-    padding: 15px;
-    font-family:"楷体";
-    font-weight: 600;
-    color:#38a7ff;
-    background:#fbfbfb;
-    border: 2px solid #fff;
-    box-shadow:
-            10px 10px 10px rgba(0,0,0,0.1),
-            inset 0px 2px 8px #CCCCCC,
-            inset 4px 4px 4px rgba(0,0,0,0.1);
-}
+
 .sharing{
     padding: 10px;
     width:380px;
@@ -88,4 +76,36 @@ html,body{
     height:220px;
     margin: 0 auto;
     padding: 60px 20px 30px 20px;
+}
+
+.header{
+    text-align:center;
+    padding: 12px 0px 12px 70px;
+    font-family:"楷体";
+    font-weight: 600;
+    color:#38a7ff;
+    background:#fbfbfb;
+    display: flex;
+    border: 2px solid #fff;
+    height: 32px;
+    position: relative;
+    box-shadow:
+            10px 10px 10px rgba(0,0,0,0.1),
+            inset 0px 2px 8px #CCCCCC,
+            inset 4px 4px 4px rgba(0,0,0,0.1);
+}
+.caption{
+    width:1600px;
+    margin:0px px;
+}
+.dayrecord{
+    width:70px;
+    height: 34px;
+    float:left;
+}
+.log_icon{
+    width:32px;
+    height:32px;
+    display: inline;
+    float:left;
 }
