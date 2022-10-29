@@ -13,7 +13,9 @@ html,body{
 }
 .header{
     text-align:center;
-    padding: 15px;
+    padding: 15px 0px 0px 150px;
+    display: flex;
+    height:83px;
     font-family:"Simsun";
     font-weight: 799;
     font-size:30px;
@@ -93,4 +95,19 @@ html,body{
     height:450px;
     margin: 0 auto;
     padding: 80px 30px 60px 60px;
+}
+.caption{
+    width:720px;
+    height:70px;
+    margin:0px;
+}
+.dayrecord{
+    width:34px;
+    height:34px;
+    float:left;
+}
+.log_icon{
+    width:65px;
+    height:65px;
+    float:left;
 }
