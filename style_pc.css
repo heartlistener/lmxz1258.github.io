@@ -80,7 +80,7 @@ html,body{
 
 .header{
     text-align:center;
-    padding: 12px 0px 12px 70px;
+    padding: 10px 0px 14px 64px;
     font-family:"楷体";
     font-weight: 600;
     color:#38a7ff;
@@ -108,4 +108,7 @@ html,body{
     height:32px;
     display: inline;
     float:left;
+}
+.font{
+    width:200px
 }
