@@ -112,3 +112,20 @@ html,body{
 .font{
     width:200px
 }
+.head:hover{
+    background-color: #eee;
+}
+.kuai:hover{
+    background-color: #eee;
+}
+
+#fenxiang:hover{
+    color:coral;
+}
+.log_icon:hover{
+
+    filter:invert(50%)
+}
+.font:hover{
+    filter:invert(85%)
+}
