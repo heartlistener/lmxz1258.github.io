@@ -115,3 +115,23 @@ html,body{
     width:350px;
     height:80px;
 }
+.head:active{
+    background-color: #eee;
+}
+.kuai:active{
+    background-color: #eee;
+}
+
+#fenxiang:active{
+    color:coral;
+}
+.log_icon:active{
+
+    filter:invert(50%)
+}
+.font:active{
+    filter:invert(85%)
+}
+.font:hover{
+    filter:invert(85%)
+}
