@@ -35,10 +35,6 @@ const songList =[
     path : "https://lmxz1258.github.io/music/Fight Song.mp3",
     songName : "Fight Song",
     },
-    { 
-    path : "https://lmxz1258.github.io/music/Loves Me Not.mp3",
-    songName : "Loves Me Not",
-    },
     {
     path : "https://lmxz1258.github.io/music/Near or Far.mp3",
     songName : "Near or Far",
@@ -46,6 +42,10 @@ const songList =[
     {
     path : "https://lmxz1258.github.io/music/Peter Pan Was Right.mp3",
     songName : "Peter Pan Was Right",
+    },
+    { 
+    path : "https://lmxz1258.github.io/music/PLANET.mp3",
+    songName : "PLANET",
     },
     {
     path : "https://lmxz1258.github.io/music/Set for Life.mp3",
@@ -66,10 +66,6 @@ const songList =[
     {
     path : "https://lmxz1258.github.io/music/Valder Fields.mp3",
     songName : "Valder Fields",
-    },
-    {
-    path : "https://lmxz1258.github.io/music/潮鳴りⅡ (潮鸣Ⅱ).mp3",
-    songName : "潮鳴りⅡ (潮鸣Ⅱ)",
     },
     {
     path : "https://lmxz1258.github.io/music/大人.mp3",
@@ -94,6 +90,10 @@ const songList =[
     { 
     path : "https://lmxz1258.github.io/music/像风一样.mp3",
     songName : "像风一样",
+    },
+    { 
+    path : "https://lmxz1258.github.io/music/霜雪千年.mp3",
+    songName : "霜雪千年",
     },
     {
     path : "https://lmxz1258.github.io/music/新時代 .mp3",
@@ -157,4 +157,4 @@ const nextSong = () => {
     playSong();
 }
 
-next.addEventListener("click", nextSong); i
+next.addEventListener("click", nextSong); 
