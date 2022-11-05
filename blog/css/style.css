@@ -205,8 +205,9 @@ section{
 
 .container .posts-container .post .text{
     color:var(--light-color);
-    font-size: 1.6rem;
-    line-height: 1.7;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-family:STKaiti,"Microsoft YaHei";
     padding:1rem 0;
 }
 
@@ -461,6 +462,11 @@ section{
     background:var(--orange);
 }
 
+.clannad{
+    width:900px;
+    height:580px;
+    flex-shrink: 1;
+}
 
 
 /* media queries  */
