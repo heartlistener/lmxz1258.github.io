@@ -464,7 +464,7 @@ section{
 
 .clannad{
     width:900px;
-    height:580px;
+    height:575px;
     flex-shrink: 1;
 }
 
@@ -551,5 +551,8 @@ section{
     .contact form .inputBox input{
         width:100%;
     }    
-
+    .clannad{
+        height: 180px;
+        width: 320px;
+    }
 }
