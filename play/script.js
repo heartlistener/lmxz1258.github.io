@@ -28,7 +28,7 @@ const songList =[
     songName : "crossing field",
     },
     {
-    path : "https://lmxz1258.github.io/music/Anya Taylor-Joy - You’re My World.mp3",
+    path : "https://lmxz1258.github.io/music/You’re My World.mp3",
     songName : "You’re My World",
     },
     {
@@ -46,6 +46,10 @@ const songList =[
     { 
     path : "https://lmxz1258.github.io/music/PLANET.mp3",
     songName : "PLANET",
+    },
+    {
+    path : "https://lmxz1258.github.io/music/Runaway.mp3",
+    songName : "Runaway",
     },
     {
     path : "https://lmxz1258.github.io/music/Set for Life.mp3",
