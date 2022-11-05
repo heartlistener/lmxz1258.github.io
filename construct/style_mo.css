@@ -1,0 +1,9 @@
+.sharing{
+    text-align:center;
+    margin: 0 auto;
+}
+.bzhan{
+    width:90vh;
+    height:100vh;
+    flex-shrink: 1;
+}
