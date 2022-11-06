@@ -1,4 +1,5 @@
 
+
 const title= document.querySelector('.title');
 const prev= document.querySelector('.prev');
 const playPause= document.querySelector('.playPause');
