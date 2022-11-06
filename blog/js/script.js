@@ -31,29 +31,29 @@ window.onscroll = () =>{
 }
 
 
-
-
 let a = 1;
 let k = 1;
 
-const change = () => {
-  text = '//player.bilibili.com/player.html?aid=2899526&bvid=BV1ks41117be&cid=4547795&page='+k;
-  clannad.setAttribute("src",text);
-  title.innerHTML = "第"+a+"-"+k+"集";
+const change = (m,n) => {
+  text = '//player.bilibili.com/player.html?aid=2899526&bvid=BV1ks41117be&cid=4547795&page='+n;
+  clannad.setAttribute('src',text);
+  title.innerHTML = "第"+m+"-"+n+"集";
 }
 
 //previous play
 const prevPlay = () => {
     k--;
-    if (k < 0 && a == 1){
+    if (k == 0 && a == 1)
+    {
         k = 22;
         a = 2;
     }
-    if (k = 0 && a == 2){
+    if (k == 0 && a == 2)
+    {
       k = 22;
       a = 1;
     }
-    change();
+    change(a,k);
 }
 
 prev.addEventListener("click", prevPlay);
@@ -61,15 +61,15 @@ prev.addEventListener("click", prevPlay);
 //next play
 const nextPlay = () => {
     k++;
-    if (k = 23 && a == 1){
+    if (k == 23 && a == 1){
         k = 1;
         a = 2;
     }
-    if (k = 23 && a == 2){
+    if (k == 23 && a == 2){
         k = 1;
         a = 1;
     }
-    change();
+    change(a,k);
 }
 
 next.addEventListener("click", nextPlay); 
