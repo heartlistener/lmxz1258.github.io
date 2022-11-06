@@ -463,32 +463,82 @@ section{
 }
 
 .clannad{
-    width:900px;
-    height:575px;
+    width:800px;
+    height:520px;
     flex-shrink: 1;
 }
-
+#clannad{
+    text-align: center;
+}
+.btn_c{
+    display: flex;
+    justify-content: center;
+}
+#btn_{
+    margin:0px 50px 0px 50px;
+}
 
 /* media queries  */
 
 @media (max-width:991px){
 
-    html{
-        font-size: 55%;
+    #menu-bars{
+        display: inline-block;
     }
 
-    .header{
+    .header .search-form{
+        top:100%; left: 0; right: 0;
+        border-top: var(--border);
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top:100%; left: 0; right: 0;
+        border-top: var(--border);
+        border-bottom: var(--border);
+        background: #fff;        
+        display: none;
+    }
+
+    .header .navbar.active{
+        display: block;
+    }
+
+    .header .navbar a{
+        display: block;
+        background:#f7f7f7;
         padding:1.5rem;
+        margin:1.5rem;
+        border-radius: .5rem;
+        border:var(--border);
     }
-
-    section{
-        padding:2rem;
-    }    
 
     .container{
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr;
+        gap:0;
     }
 
+    .container .posts-container .post .image{
+        height: 30rem;;
+    }
+
+    .footer{
+        flex-flow: column;
+        text-align: center;
+    }
+    .clannad{
+        width:768px;
+        height:435px;
+        flex-shrink: 1;
+    }
+    #clannad{
+        text-align: center;
+    }
+    .content{
+        width:100%;
+    }
 }
 
 @media (max-width:768px){
@@ -539,10 +589,18 @@ section{
         flex-flow: column;
         text-align: center;
     }
+    .clannad{
+        height: 282px;
+        width: 500px;
+        flex-shrink: 1;
 
+    }
+    #clannad{
+        text-align: center;
+    }
 }
 
-@media (max-width:450px){
+@media (max-width:500px){
 
     html{
         font-size: 50%;
@@ -553,6 +611,10 @@ section{
     }    
     .clannad{
         height: 180px;
-        width: 320px;
+        width: 300px;
+        flex-shrink: 1;
+    }
+    #clannad{
+        text-align: center;
     }
 }
