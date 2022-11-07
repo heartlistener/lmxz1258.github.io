@@ -533,7 +533,7 @@ section{
     }
     .clannad{
         width:770px;
-        height:435px;
+        height:503px;
  
     }
     #clannad{
@@ -595,7 +595,7 @@ section{
         text-align: center;
     }
     .clannad{
-        height: 338px;
+        height: 285px;
         width: 500px;
         flex-shrink: 1;
     }
@@ -614,8 +614,8 @@ section{
         width:100%;
     }    
     .clannad{
-        height: 180px;
-        width: 300px;
+        height: 155px;
+        width: 280px;
         flex-shrink: 1;
     }
     #clannad{
