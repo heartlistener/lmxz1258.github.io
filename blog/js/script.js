@@ -40,6 +40,7 @@ let k = 1;
 
 const change = (m,n,q) => {
   text = '//player.bilibili.com/player.html?aid=2899526&bvid=BV1ks41117be&cid='+q;
+
   clannad.setAttribute('src',text);
   title.innerHTML = "第"+m+"-"+n+"集";
 }
@@ -62,11 +63,19 @@ const prevPlay = () => {
       k = 22;
       a = 1;
     }
-    if (sc<800)
+    if (sc<1200)
     {
-      ans =4547794+ (a-1)*24+k;
-      change(a,k,ans);
-  
+      if(a==2)
+      {
+        ans =+ 4550562+k;
+        change(a,k,ans);
+      }
+      else
+      {
+
+        ans =4547794+k;
+        change(a,k,ans);
+      }
     }
     else{
       ans = (a-1)*24+k;
@@ -88,11 +97,19 @@ const nextPlay = () => {
         a = 1;
 
 }
-  if (sc<800)
+  if (sc<1200)
   {
-    ans =4547794+ (a-1)*24+k;
-    change(a,k,ans);
+    if(a==2)
+    {
+      ans =+ 4550562+k;
+      change(a,k,ans);
+    }
+    else
+    {
 
+      ans =4547794+k;
+      change(a,k,ans);
+    }
   }
   else{
     ans = (a-1)*24+k;
@@ -106,13 +123,22 @@ next.addEventListener("click", nextPlay);
 const jump_video = () => {
   k = Number(jk.value);
   a = Number(ja.value);
-  if (sc<800)
+  if (sc<1200)
   {
-    ans =4547794+ (a-1)*24+k;
-    change(a,k,ans);
+    if(a==2)
+    {
+      ans =+ 4550562+k;
+      change(a,k,ans);
+    }
+    else
+    {
 
+      ans =4547794+k;
+      change(a,k,ans);
+    }
   }
   else{
+
     ans = (a-1)*24+k;
     Change(a,k,ans);  
   }
