@@ -63,7 +63,7 @@ const prevPlay = () => {
       k = 22;
       a = 1;
     }
-    if (sc<1200)
+    if (sc<740)
     {
       if(a==2)
       {
@@ -97,7 +97,7 @@ const nextPlay = () => {
         a = 1;
 
 }
-  if (sc<1200)
+  if (sc<740)
   {
     if(a==2)
     {
@@ -123,7 +123,7 @@ next.addEventListener("click", nextPlay);
 const jump_video = () => {
   k = Number(jk.value);
   a = Number(ja.value);
-  if (sc<1200)
+  if (sc<740)
   {
     if(a==2)
     {
