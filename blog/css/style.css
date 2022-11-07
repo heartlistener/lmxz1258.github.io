@@ -476,15 +476,14 @@ section{
     height: 30px;
 }
 #btn_{
-    margin:10px 80px 10px 80px;
+    margin:0px 50px 0px 50px;
 }
 .next,.prev{
     color: coral;
-
 }
 /* media queries  */
 
-@media (max-width:991px){
+@media (max-width:1100px){
 
     #menu-bars{
         display: inline-block;
@@ -533,9 +532,9 @@ section{
         text-align: center;
     }
     .clannad{
-        width:768px;
+        width:770px;
         height:435px;
-        flex-shrink: 1;
+ 
     }
     #clannad{
         text-align: center;
@@ -547,7 +546,7 @@ section{
 
 }
 
-@media (max-width:768px){
+@media (max-width:800px){
 
     #menu-bars{
         display: inline-block;
@@ -596,7 +595,7 @@ section{
         text-align: center;
     }
     .clannad{
-        height: 282px;
+        height: 338px;
         width: 500px;
         flex-shrink: 1;
     }
