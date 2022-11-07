@@ -625,7 +625,7 @@ section{
     .clannad{
         height: 155px;
         width: 280px;
-        flex-shrink: 1;
+        flex-shrink: 0.5;
     }
     #clannad{
         text-align: center;
