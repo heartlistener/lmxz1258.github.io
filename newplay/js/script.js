@@ -355,14 +355,14 @@ for (let index = 0; index < allMusic.length; index++)
         <audio class="${allMusic[index].src.slice(0,3)}" 
                src="music/${allMusic[index].src}.mp3">
         </audio>
-        <span id="${allMusic[index].src}" class="audio-duration">3:28</span>
+        <span id="${allMusic[index].src.slice(0,3)}" class="audio-duration">3:28</span>
     </li>
   `;
   // 插入在结束标签之后
   ulTag.insertAdjacentHTML('beforeend', liTag);
 
   // li下面那个span实例，用来修改音乐时长
-  let liAudioDuration = ulTag.querySelector(`#${allMusic[index].src}`);
+  let liAudioDuration = ulTag.querySelector(`#${allMusic[index].src.slice(0,3)}`);
   // li下面的播放器实例
   let liAudioTag = ulTag.querySelector(`.${allMusic[index].src.slice(0,3)}`);
 
