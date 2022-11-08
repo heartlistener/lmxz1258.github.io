@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', 'sans-serif';
+
 }
 
 *::before,
@@ -14,7 +15,7 @@
 }
 
 :root {
-  --pink: #ff74a4;
+  --pink: #ff5234;
   --violet: #9f6ea3;
   --lightblack: #515c6f;
   --white: #fff;
@@ -28,10 +29,19 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  background: url(https://lmxz.eu.org/picture/backgrand.png); 
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  background-color: #CCCCCC;
 }
-
+.title{
+  color: #515c6f;
+  font-size: larger;
+  text-align: center;
+}
 .wrapper {
-  width: 380px;
+  width: 355px;
   background: var(--white);
   box-shadow: 0px 6px 15px var(--lightbshadow);
   border-radius: 15px;
