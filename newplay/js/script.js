@@ -1,154 +1,98 @@
 
 let allMusic =[
   {  
-  src : "Traveling Light",
-  name : "Traveling Light",
-  artist:"Joel Hanson",
-  img : "Traveling Light",
+    src : "Traveling Light",
+    artist:"Joel Hanson",
   },
-  {
-  src : "6-2 (Radio Mix)",
-  name : "6-2 (Radio Mix)",
-  artist:"Marie Miller",
-  img : "6-2 (Radio Mix)",
+  { 
+    src : "Celestial",
+    artist:"Ed Sheeran",
   },
   {
   src : "Back To December",
-  name : "Back To December",
   artist:"Taylor Swift",
-  img : "Back To December",
   },
-  { 
-  src : "Celestial",
-  name : "Celestial",
-  artist:"Ed Sheeran",
-  img : "Celestial",
-  },
+
   {
   src : "crossing field",
-  name : "crossing field",
   artist:"LiSA",
-  img : "crossing field",
   },
   {
   src : "You’re My World",
-  name : "You’re My World",
   artist:"Anya Taylor-Joy",
-  img : "You’re My World",
   },
   {
   src : "Fight Song",
-  name : "Fight Song",
   artist:"Rachel Platten",
-  img : "Fight Song",
   },
   {
   src : "Near or Far",
-  name : "Near or Far",
   artist:"Carissa Rae",
-  img : "Near or Far",
   },
   {
   src : "Peter Pan Was Right",
-  name : "Peter Pan Was Right",
   artist:"Anson Seabra",
-  img : "Peter Pan Was Right",
   },
-  { 
-  src : "PLANET",
-  name : "PLANET",
-  artist:"Lambsey",
-  img : "PLANET",
-  },
+
   {
   src : "Runaway",
-  name : "Runaway",
   artist:"AURORA",
-  img : "Runaway",
   },
   {
   src : "Set for Life",
-  name : "Set for Life",
   artist:"Trent Dabbs",
-  img : "Set for Life",
   },
   {
   src : "So Far Away",
-  name : "So Far Away",
   artist:"Martin Garrix、David Guetta",
-  img : "So Far Away",
   },
   {
   src : "The Calling",
-  name : "The Calling",
   artist:"TheFatRat、Laura Brehm", 
-  img : "The Calling",
   },
   {
   src : "Unique",
-  name : "Unique",
   artist:"Lenka", 
-  img : "Unique",
   },
   {
   src : "Valder Fields",
-  name : "Valder Fields",
   artist:"Tamas Wells", 
-  img : "Valder Fields",
   },
   {
   src : "大人",
-  name : "大人",
   artist:"Sondia", 
-  img : "大人",
   },
   {
   src : "晴天",
-  name : "晴天",
   artist:"周杰伦", 
-  img : "晴天",
   },
   {
   src : "十代之曲",
-  name : "十代之曲",
   artist:"蓑部雄崇", 
-  img : "十代之曲",
   },
   { 
   src : "棠梨煎雪",
-  name : "棠梨煎雪",
   artist:"银临", 
-  img : "棠梨煎雪",
   },
   { 
   src : "天空中闪烁着光",
-  name : "天空中闪烁着光",
   artist:"铃汐", 
-  img : "天空中闪烁着光",
   },
   { 
   src : "像风一样",
-  name : "像风一样",
   artist:"薛之谦", 
-  img : "像风一样",
   },
   { 
   src : "霜雪千年",
-  name : "霜雪千年",
   artist:"排骨教主", 
-  img : "霜雪千年",
   },
   {
   src : "新時代",
-  name : "新時代",
   artist:"Ado", 
-  img : "新時代",
   },
   {
   src : "有彩虹",
-  name : "有彩虹",
   artist:"빈센트 블루", 
-  img : "有彩虹",
   },
 ];
 
@@ -207,11 +151,11 @@ window.addEventListener('load', () => {
 //  加载音乐
 function loadMusic(indexNumb) {
   // 音乐名
-  musicName.innerText = allMusic[indexNumb - 1].name;
+  musicName.innerText = allMusic[indexNumb - 1].src;
   //   唱作人名
   musicArtist.innerText = allMusic[indexNumb - 1].artist;
   //   封面
-  musicImg.src = `img/${allMusic[indexNumb - 1].img}.jpg`;
+  musicImg.src = `img/${allMusic[indexNumb - 1].src}.jpg`;
   //   音乐源
   mainAudio.src = `music/${allMusic[indexNumb - 1].src}.mp3`;
   playingNow();
@@ -400,14 +344,15 @@ hideMusicBtn.addEventListener('click', () => {
 
 // 循环生成列表内的数据
 const ulTag = wrapper.querySelector('ul');
-for (let index = 0; index < allMusic.length; index++) {
+for (let index = 0; index < allMusic.length; index++) 
+{
   let liTag = `
     <li li-index="${index + 1}">
         <div class="row">
-        <span>${allMusic[index].name}</span>
+        <span>${allMusic[index].src}</span>
         <p>${allMusic[index].artist}</p>
         </div>
-        <audio class="${allMusic[index].src}" 
+        <audio class="${allMusic[index].src.slice(0,3)}" 
                src="music/${allMusic[index].src}.mp3">
         </audio>
         <span id="${allMusic[index].src}" class="audio-duration">3:28</span>
@@ -419,24 +364,27 @@ for (let index = 0; index < allMusic.length; index++) {
   // li下面那个span实例，用来修改音乐时长
   let liAudioDuration = ulTag.querySelector(`#${allMusic[index].src}`);
   // li下面的播放器实例
-  let liAudioTag = ulTag.querySelector(`.${allMusic[index].src}`);
+  let liAudioTag = ulTag.querySelector(`.${allMusic[index].src.slice(0,3)}`);
 
   // 通过播放器实例得到音乐时长
   liAudioTag.addEventListener('loadeddata', () => {
     // 得到音乐总时长
+
     let audioDuration = liAudioTag.duration;
     // 计算得到分钟
     let totalMin = Math.floor(audioDuration / 60);
     // 计算得到秒钟，不断对60取余数，不足60s的就是最终的秒钟
     let totalSec = Math.floor(audioDuration % 60);
     // 不足10s补0
+
     if (totalSec < 10) {
       totalSec = '0' + totalSec;
     }
     liAudioDuration.innerText = `${totalMin}:${totalSec}`;
     // 将每首歌的时长保留到标签上，后续切歌用于回写音乐时长，从Playing回写
     liAudioDuration.setAttribute('t-duration', `${totalMin}:${totalSec}`);
-  });
+  });  
+
 }
 
 // 得到所有的li标签
