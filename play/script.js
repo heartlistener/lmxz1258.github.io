@@ -9,7 +9,7 @@ const audio= document.querySelector('audio');
 // song list
 const songList =[
     {  
-    path : "https://lmxz1258.github.io/music/traveling light.mp3",
+    path : "https://lmxz1258.github.io/music/Traveling Light.mp3",
     songName : "Traveling Light",
     },
     {
