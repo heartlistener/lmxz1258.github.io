@@ -145,9 +145,3 @@ body{
 
     filter:invert(50%)
 }
-.font:active{
-    filter:invert(85%)
-}
-.font:hover{
-    filter:invert(85%)
-}
