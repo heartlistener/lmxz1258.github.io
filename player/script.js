@@ -13,8 +13,8 @@ const songList =[
     songName : "Traveling Light",
     },
     {
-    path : "https://lmxz1258.github.io/newplay/music/6-2 (Radio Mix).mp3",
-    songName : "6-2 (Radio Mix)",
+    path : "https://lmxz1258.github.io/newplay/music/Radio Mix 6-2.mp3",
+    songName : "Radio Mix 6-2 ",
     },
     {
     path : "https://lmxz1258.github.io/newplay/music/Back To December.mp3",
