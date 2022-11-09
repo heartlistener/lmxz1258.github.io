@@ -9,103 +9,103 @@ const audio= document.querySelector('audio');
 // song list
 const songList =[
     {  
-    path : "https://lmxz1258.github.io/music/Traveling Light.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/Traveling Light.mp3",
     songName : "Traveling Light",
     },
     {
-    path : "https://lmxz1258.github.io/music/6-2 (Radio Mix).mp3",
+    path : "https://lmxz1258.github.io/newplay/music/6-2 (Radio Mix).mp3",
     songName : "6-2 (Radio Mix)",
     },
     {
-    path : "https://lmxz1258.github.io/music/Back To December.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/Back To December.mp3",
     songName : "Back To December",
     },
     { 
-    path : "https://lmxz1258.github.io/music/Celestial.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/Celestial.mp3",
     songName : "Celestial",
     },
     {
-    path : "https://lmxz1258.github.io/music/crossing field.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/crossing field.mp3",
     songName : "crossing field",
     },
     {
-    path : "https://lmxz1258.github.io/music/You’re My World.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/You’re My World.mp3",
     songName : "You’re My World",
     },
     {
-    path : "https://lmxz1258.github.io/music/Fight Song.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/Fight Song.mp3",
     songName : "Fight Song",
     },
     {
-    path : "https://lmxz1258.github.io/music/Near or Far.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/Near or Far.mp3",
     songName : "Near or Far",
     },
     {
-    path : "https://lmxz1258.github.io/music/Peter Pan Was Right.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/Peter Pan Was Right.mp3",
     songName : "Peter Pan Was Right",
     },
     { 
-    path : "https://lmxz1258.github.io/music/PLANET.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/PLANET.mp3",
     songName : "PLANET",
     },
     {
-    path : "https://lmxz1258.github.io/music/Runaway.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/Runaway.mp3",
     songName : "Runaway",
     },
     {
-    path : "https://lmxz1258.github.io/music/Set for Life.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/Set for Life.mp3",
     songName : "Set for Life",
     },
     {
-    path : "https://lmxz1258.github.io/music/So Far Away.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/So Far Away.mp3",
     songName : "So Far Away",
     },
     {
-    path : "https://lmxz1258.github.io/music/The Calling.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/The Calling.mp3",
     songName : "The Calling",
     },
     {
-    path : "https://lmxz1258.github.io/music/Unique.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/Unique.mp3",
     songName : "Unique",
     },
     {
-    path : "https://lmxz1258.github.io/music/Valder Fields.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/Valder Fields.mp3",
     songName : "Valder Fields",
     },
     {
-    path : "https://lmxz1258.github.io/music/大人.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/大人.mp3",
     songName : "大人",
     },
     {
-    path : "https://lmxz1258.github.io/music/晴天.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/晴天.mp3",
     songName : "晴天",
     },
     {
-    path : "https://lmxz1258.github.io/music/十代之曲.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/十代之曲.mp3",
     songName : "十代之曲",
     },
     { 
-    path : "https://lmxz1258.github.io/music/棠梨煎雪.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/棠梨煎雪.mp3",
     songName : "棠梨煎雪",
     },
     { 
-    path : "https://lmxz1258.github.io/music/天空中闪烁着光.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/天空中闪烁着光.mp3",
     songName : "天空中闪烁着光",
     },
     { 
-    path : "https://lmxz1258.github.io/music/像风一样.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/像风一样.mp3",
     songName : "像风一样",
     },
     { 
-    path : "https://lmxz1258.github.io/music/霜雪千年.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/霜雪千年.mp3",
     songName : "霜雪千年",
     },
     {
-    path : "https://lmxz1258.github.io/music/新時代 .mp3",
+    path : "https://lmxz1258.github.io/newplay/music/新時代 .mp3",
     songName : "新時代",
     },
     {
-    path : "https://lmxz1258.github.io/music/有彩虹.mp3",
+    path : "https://lmxz1258.github.io/newplay/music/有彩虹.mp3",
     songName : "有彩虹",
     },
 ];
