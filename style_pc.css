@@ -3,10 +3,31 @@
     margin:0;
     padding:0;
 }
+:root{
+    --body_bg:url(picture/backgrand.png);
+    --header_bg:#fbfbfb;
+    --font_color:#38a7ff;
+    --header_color:invert(0%);
+    --border_color:#ccc:
+}
+/* :root{
+    --body_bg:url(picture/backgrand2.png);
+    --header_bg:#305080;
+    --font_color:#d0d0d0;
+    --header_color:invert(0.85);
+    --border_color:#808080;
+    --icon_color:invert(50%);
+}  */
 a{text-decoration:none}
 a:hover{text-decoration:none}
 html,body{
     height:100%;
+}
+body{
+    background:var(--body_bg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
 }
 .box{
     min-height:100%;
@@ -19,7 +40,7 @@ html,body{
     float: left;
     text-align: center;
 }
-.footer{
+/* .footer{
     font-family:arial;
     font-size: 17px;
     color: #555;
@@ -32,24 +53,24 @@ html,body{
             7px 7px 8px rgba(0,0,0,0.1),
             inset -9px -9px 9px #fff,
             inset 9px 9px 9px rgba(0,0,0,0.1);
-}
+} */
 .head{
     text-align: center;
     float :left;
     width :355px;
     height : 200px;
     padding: 5px;
-    border: 3px solid #bbb;
-    background: #fbfbfb;
+    border: 3px solid var(--border_color);
+    background: var(--header_bg);
     border-radius: 150px;
-    box-shadow:-4px -4px 2px #fff,
-        10px 10px 15px rgba(0,0,0,0.1),
-        inset -5px -5px 15px #fff,
-        inset 5px 5px 15px rgba(0,0,0,0.1);
+    box-shadow:-1px -1px 1px var(--header_bg),
+        5px 5px 15px rgba(0,0,0,0.1),
+        inset -5px -5px 15px var(--header_bg),
+        inset  1px 1px 1px rgba(0,0,0,0.1);
 }
 #fenxiang{
     display: inline;
-    color:#38a7ff;
+    color:var(--font_color);
     font-weight: 500;
     font-family:  "FZShuTi",sans-serif;
 }
@@ -57,13 +78,13 @@ html,body{
     margin: 0px 30px 0px -5px;
     width:130px;
     min-height: 37px;
-    background:#fbfbfb;
-    border: 2px solid #ccc;
+    background:var(--header_bg);
+    border: 2px solid var(--border_color);
     float :left;
     text-align: center;
-    box-shadow:-3px -3px 4px #fff,
+    box-shadow:-3px -3px 4px var(--header_bg),
             4px 4px 5px rgba(0,0,0,0.1),
-            inset -3px -3px 8px #fff,
+            inset -3px -3px 8px var(--header_bg),
             inset 3px 3px 8px rgba(0,0,0,0.1);
     
 }
@@ -83,16 +104,15 @@ html,body{
     padding: 10px 0px 14px 64px;
     font-family:"楷体";
     font-weight: 600;
-    color:#38a7ff;
-    background:#fbfbfb;
+    background:var(--header_bg);
     display: flex;
-    border: 2px solid #fff;
+    border: 1.5px solid var(--border_color);
     height: 32px;
     position: relative;
     box-shadow:
-            10px 10px 10px rgba(0,0,0,0.1),
-            inset 0px 2px 8px #CCCCCC,
-            inset 4px 4px 4px rgba(0,0,0,0.1);
+            2px 2px 1px rgba(0,0,0,0.1),
+            inset 0px 1px 1px #CCCCCC,
+            inset 1px 1px 1px rgba(0,0,0,0.1);
 }
 .caption{
     width:1600px;
@@ -102,6 +122,7 @@ html,body{
     width:70px;
     height: 34px;
     float:left;
+    filter:var(--icon_color);
 }
 .log_icon{
     width:32px;
@@ -110,7 +131,8 @@ html,body{
     float:left;
 }
 .font{
-    width:200px
+    width:200px;
+    filter:var(--header_color);
 }
 .head:hover{
     background-color: #eee;
@@ -124,8 +146,8 @@ html,body{
 }
 .log_icon:hover{
 
-    filter:invert(50%)
+    filter:invert(50%);
 }
 .font:hover{
-    filter:invert(85%)
+    filter:invert(85%);
 }
