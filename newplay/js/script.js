@@ -4,6 +4,10 @@ let allMusic =[
     src : "Traveling Light",
     artist:"Joel Hanson",
   },
+  {  
+    src : "6-2 (Radio Mix)",
+    artist:"Marie Miller",
+  },
   { 
     src : "Celestial",
     artist:"Ed Sheeran",
@@ -53,6 +57,10 @@ let allMusic =[
   {
   src : "Unique",
   artist:"Lenka", 
+  },
+  {
+  src : "Unbelievable",
+  artist:"Owl City、Hanson", 
   },
   {
   src : "Valder Fields",
