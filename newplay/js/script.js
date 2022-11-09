@@ -13,21 +13,28 @@ let allMusic =[
     artist:"Marie Miller",
   },
   {
+  src : "ALittle Story",
+  artist:"Valentin",
+  },
+  {
   src : "Back To December",
   artist:"Taylor Swift",
   },
-
   {
   src : "crossing field",
   artist:"LiSA",
   },
   {
-  src : "You're My World",
+  src : "Downtown(Downtempo)",
   artist:"Anya Taylor-Joy",
   },
   {
   src : "Fight Song",
   artist:"Rachel Platten",
+  },
+ {
+  src : "Lov3 Ngẫu Hứng",
+  artist:"Hoaprox",
   },
   {
   src : "Near or Far",
@@ -37,7 +44,10 @@ let allMusic =[
   src : "Peter Pan Was Right",
   artist:"Anson Seabra",
   },
-
+  {
+  src : "Promise for Christmas",
+  artist:"Angelika Vee", 
+  },
   {
   src : "Runaway",
   artist:"AURORA",
@@ -45,6 +55,10 @@ let allMusic =[
   {
   src : "Set for Life",
   artist:"Trent Dabbs",
+  },
+  {
+  src : "Skyline",
+  artist:"Madism",
   },
   {
   src : "So Far Away",
@@ -59,12 +73,12 @@ let allMusic =[
   artist:"Lenka", 
   },
   {
-  src : "Unbelievable",
-  artist:"Owl City、Hanson", 
-  },
-  {
   src : "Valder Fields",
   artist:"Tamas Wells", 
+  },
+  {
+  src : "XYZ",
+  artist:"松本梨香",
   },
   {
   src : "大人",
@@ -85,6 +99,10 @@ let allMusic =[
   { 
   src : "天空中闪烁着光",
   artist:"铃汐", 
+  },
+  {
+  src : "起风了",
+  artist:"买辣椒也用券",
   },
   { 
   src : "像风一样",
