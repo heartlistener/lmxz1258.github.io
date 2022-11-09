@@ -4,13 +4,13 @@ let allMusic =[
     src : "Traveling Light",
     artist:"Joel Hanson",
   },
-  {  
-    src : "6-2 (Radio Mix)",
-    artist:"Marie Miller",
-  },
   { 
     src : "Celestial",
     artist:"Ed Sheeran",
+  },
+  {  
+    src : "Radio Mix 6-2",
+    artist:"Marie Miller",
   },
   {
   src : "Back To December",
@@ -22,7 +22,7 @@ let allMusic =[
   artist:"LiSA",
   },
   {
-  src : "You’re My World",
+  src : "You're My World",
   artist:"Anya Taylor-Joy",
   },
   {
