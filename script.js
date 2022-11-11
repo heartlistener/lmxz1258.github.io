@@ -1,3 +1,4 @@
+swal("欢迎来到本站","网站暂时不能通过微信分享，如果想要分享请复制https://flowus.cn/27862033-1b41-447d-8ca9-5df6457a5da8");
 rt = document.documentElement.style;
 hd = document.querySelector(".caption");
 let c = 0;
