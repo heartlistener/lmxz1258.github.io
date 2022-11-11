@@ -1,4 +1,4 @@
-swal("欢迎来到本站","网站暂时不能通过微信分享，如果想要分享请复制https://flowus.cn/share/a385361c-4a2e-4483-83a1-78e3e14021fd");
+swal("欢迎来到本站","现更新形策章节测试答案，需要从资源分享查找");
 rt = document.documentElement.style;
 hd = document.querySelector(".caption");
 let c = 0;
