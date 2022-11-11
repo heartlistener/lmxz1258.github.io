@@ -36,6 +36,10 @@ let allMusic =[
   src : "Lov3 Ngẫu Hứng",
   artist:"Hoaprox",
   },
+ {
+  src : "Hope",
+  artist:"安室奈美恵",
+  },
   {
   src : "Near or Far",
   artist:"Carissa Rae",
