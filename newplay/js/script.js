@@ -77,8 +77,8 @@ let allMusic =[
   artist:"Tamas Wells", 
   },
   {
-  src : "XYZ",
-  artist:"松本梨香",
+  src : "ドリドリ",
+  artist:"中川翔子",
   },
   {
   src : "大人",
@@ -111,10 +111,6 @@ let allMusic =[
   { 
   src : "霜雪千年",
   artist:"排骨教主", 
-  },
-  {
-  src : "新時代",
-  artist:"Ado", 
   },
   {
   src : "有彩虹",
