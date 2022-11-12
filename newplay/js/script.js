@@ -85,6 +85,10 @@ let allMusic =[
   artist:"中川翔子",
   },
   {
+  src : "ヤキモチ",
+  artist:"高桥优",
+  },
+  {
   src : "大人",
   artist:"Sondia", 
   },
@@ -103,10 +107,6 @@ let allMusic =[
   { 
   src : "天空中闪烁着光",
   artist:"铃汐", 
-  },
-  {
-  src : "起风了",
-  artist:"买辣椒也用券",
   },
   { 
   src : "像风一样",
