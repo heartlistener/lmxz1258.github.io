@@ -85,10 +85,6 @@ let allMusic =[
   artist:"中川翔子",
   },
   {
-  src : "ヤキモチ",
-  artist:"高桥优",
-  },
-  {
   src : "大人",
   artist:"Sondia", 
   },
@@ -104,6 +100,10 @@ let allMusic =[
   src : "棠梨煎雪",
   artist:"银临", 
   },
+  {
+  src : "起风了",
+  artist:"吴青峰",
+  },
   { 
   src : "天空中闪烁着光",
   artist:"铃汐", 
@@ -111,6 +111,10 @@ let allMusic =[
   { 
   src : "像风一样",
   artist:"薛之谦", 
+  },
+  { 
+  src : "画",
+  artist:"邓紫棋", 
   },
   { 
   src : "霜雪千年",
