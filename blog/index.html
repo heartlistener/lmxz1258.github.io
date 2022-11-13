@@ -10,7 +10,7 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="../picture/web_icon.png" sizes="16x16">
-    
+    <link rel="stylesheet" href="../newplay/css/style.css" />
 </head>
 <body>
 
@@ -255,6 +255,46 @@
                 <a href="#1988">请回答1988</a>
             </div>
         </div>
+        <div class="box">
+            <h3 class="title">Music Player</h3>
+            <div class="music_box">
+                <div class="wrapper">
+                    <div class="img-area">
+                        <img src="../newplay/img/Traveling Light.jpg" alt="" />
+                    </div>
+                    <div class="song-details">
+                        <p class="name"></p>
+                        <p class="artist"></p>
+                    </div>
+                    <div class="progress-area">
+                        <div class="progress-bar"></div>
+                        <div class="timer">
+                            <span class="current"></span>
+                            <span class="duration"></span>
+                        </div>
+                        <audio id="main-audio" src=""></audio>
+                    </div>
+                    <div class="controls">
+                        <i id="repeat-plist" title="顺序播放" class="fas fa-redo-alt"></i>
+                        <i id="prev" class="fa fa-angle-double-left"></i>
+                        <div class="play-pause">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <i id="next" class="fa fa-angle-double-right"></i>
+                        <i id="more-music" class="fas fa-list"></i>
+                    </div>
+                    <div class="music-list">
+                        <div id="header">
+                            <div class="row">
+                                
+                            </div>
+                            <i id="close" class="fas fa-times"></i>
+                        </div>
+                        <ul></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 </section>
@@ -302,6 +342,6 @@
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
-    
+<script src="../newplay/js/script.js"></script>
 </body>
 </html>
