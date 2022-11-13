@@ -171,9 +171,7 @@ body{
     height:80px;
     filter:var(--header_color);
 }
-.head:active{
-    background-color: #eee;
-}
+
 .kuai:active{
     background-color: #eee;
 }
