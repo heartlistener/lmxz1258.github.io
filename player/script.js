@@ -9,19 +9,19 @@ const audio= document.querySelector('audio');
 // song list
 const songList =[
     {  
-    path : "https://lmxz1258.github.io/newplay/music/Traveling Light.mp3",
+    path : "http://music.163.com/song/media/outer/url?id=1491585.mp3",
     songName : "Traveling Light",
     },
     {
-    path : "https://lmxz1258.github.io/newplay/music/Radio Mix 6-2.mp3",
+    path : "http://music.163.com/song/media/outer/url?id=28987615.mp3",
     songName : "Radio Mix 6-2 ",
     },
     {
-    path : "https://lmxz1258.github.io/newplay/music/Back To December.mp3",
-    songName : "Back To December",
+    path : "http://music.163.com/song/media/outer/url?id=1969538016.mp3",
+    songName : "love Story",
     },
     { 
-    path : "https://lmxz1258.github.io/newplay/music/Celestial.mp3",
+    path : "http://music.163.com/song/media/outer/url?id=1984892291.mp3",
     songName : "Celestial",
     },
     {
