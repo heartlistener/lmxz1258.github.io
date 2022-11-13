@@ -73,16 +73,16 @@ body{
     height: 40px;
     border-bottom :2px solid #38a7ff;
 }
-.head_headline img{
-    width:40px;
-    height: 40px;
-    margin-left: 15px;
+#lmxz{
+    width:70px;
+    height: 70px;
+
 }
 .head_title{
     flex: 1;
     height:40px;
     font-size: 25px;
-    margin-right: 55px;
+
 }
 .head_content{
     display: flex;
