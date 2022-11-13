@@ -82,16 +82,14 @@ body{
     height: 80px;
     border-bottom :2px solid #38a7ff;
 }
-.head_headline img{
-    width:70px;
-    height: 70px;
-    padding-left: 50px;
+#lmxz{
+    width:120px;
+    height: 120px;
 }
 .head_title{
     flex: 1;
     height:90px;
     font-size: 40px;
-    margin-right: 100px;
 }
 .head_content{
     display: flex;
