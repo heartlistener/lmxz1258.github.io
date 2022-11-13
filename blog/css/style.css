@@ -493,7 +493,9 @@ section{
 #jdsbj_1{
     color:#e67e22;
 }
-
+#title_music{
+    text-align: center;
+}
 /* media queries  */
 
 @media (max-width:1100px){
