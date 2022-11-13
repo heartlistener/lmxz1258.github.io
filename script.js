@@ -11,7 +11,8 @@ const change_bg =()=>{
         rt.setProperty("--font_color","rgb(208,208,208)");
         rt.setProperty("--header_color","invert(0.85)");
         rt.setProperty("--border_color","rgb(128,128,128)");
-        rt.setProperty("--icon_color","invert(1)")
+        rt.setProperty("--icon_color","invert(1)");
+        rt.setProperty("--head_bg","rgb(48,80,128)");
     }
     else{
         rt.setProperty("--body_bg","url(picture/backgrand.png)");
@@ -19,6 +20,7 @@ const change_bg =()=>{
         rt.setProperty("--font_color","#38a7ff");
         rt.setProperty("--header_color","invert(0%)");
         rt.setProperty("--border_color","#ccc");
+        rt.setProperty("--head_bg","#ebf6f6");
     }
 };
 hd.addEventListener('click',change_bg);
