@@ -181,3 +181,6 @@ body{
 .font:hover{
     filter:invert(85%);
 }
+.head:hover{
+    background-color: #fff;
+}
