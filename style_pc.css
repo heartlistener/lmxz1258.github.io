@@ -8,7 +8,8 @@
     --header_bg:#fbfbfb;
     --font_color:#38a7ff;
     --header_color:invert(0%);
-    --border_color:#ccc:
+    --border_color:#ccc;
+    --head_bg:#ebf6f6;
 }
 /* :root{
     --body_bg:url(picture/backgrand2.png);
@@ -57,16 +58,48 @@ body{
 .head{
     text-align: center;
     float :left;
-    width :355px;
+    width :430px;
     height : 200px;
     padding: 5px;
     border: 3px solid var(--border_color);
-    background: var(--header_bg);
-    border-radius: 150px;
+    background: var(--head_bg);
+    border-radius: 40px;
     box-shadow:-1px -1px 1px var(--header_bg),
-        5px 5px 15px rgba(0,0,0,0.1),
-        inset -5px -5px 15px var(--header_bg),
+        3px 3px 2px rgba(0,0,0,0.1),
         inset  1px 1px 1px rgba(0,0,0,0.1);
+}
+.head_headline{
+    display: flex;
+    height: 40px;
+    border-bottom :2px solid #38a7ff;
+}
+.head_headline img{
+    width:40px;
+    height: 40px;
+    margin-left: 15px;
+}
+.head_title{
+    flex: 1;
+    height:40px;
+    font-size: 25px;
+    margin-right: 55px;
+}
+.head_content{
+    display: flex;
+    justify-content: center;
+    width:430px;
+    height: 110px;
+    flex-direction: column;
+}
+.head_btn img{
+    margin-top: 10px;
+    width:110px;
+}
+
+.head_m{
+    margin:5px 0px;
+    font-size: 20px;
+    color:#69e;
 }
 #fenxiang{
     display: inline;
@@ -82,10 +115,9 @@ body{
     border: 2px solid var(--border_color);
     float :left;
     text-align: center;
-    box-shadow:-3px -3px 4px var(--header_bg),
-            4px 4px 5px rgba(0,0,0,0.1),
-            inset -3px -3px 8px var(--header_bg),
-            inset 3px 3px 8px rgba(0,0,0,0.1);
+    box-shadow:-1px -1px 1px var(--header_bg),
+             2px 2px 2px rgba(0,0,0,0.1),
+            inset 1.5px 1.5px 1px rgba(0,0,0,0.1);
     
 }
 #item{
@@ -93,7 +125,7 @@ body{
     margin: 0 auto;
 }
 .container{
-    width:360px;
+    width:430px;
     height:220px;
     margin: 0 auto;
     padding: 40px 20px 30px 20px;
@@ -134,9 +166,7 @@ body{
     width:200px;
     filter:var(--header_color);
 }
-.head:hover{
-    background-color: #eee;
-}
+
 .kuai:hover{
     background-color: #eee;
 }
