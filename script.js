@@ -1,4 +1,4 @@
-swal("欢迎来到本站","现更新形策章节测试答案，需要从资料分享查找");
+// swal("欢迎来到本站","现更新形策章节测试答案，需要从资料分享查找");
 rt = document.documentElement.style;
 hd = document.querySelector(".caption");
 let c = 0;
