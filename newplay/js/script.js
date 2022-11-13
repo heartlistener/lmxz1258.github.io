@@ -222,7 +222,7 @@ let allMusic =[
     //   唱作人名
     musicArtist.innerText = allMusic[indexNumb - 1].artist;
     //   封面
-    musicImg.src = `img/${allMusic[indexNumb - 1].name}.jpg`;
+    musicImg.src = `../newplay/img/${allMusic[indexNumb - 1].name}.jpg`;
     //   音乐源
     mainAudio.src = `${allMusic[indexNumb - 1].src}.mp3`;
     playingNow();
