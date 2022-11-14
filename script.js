@@ -34,7 +34,7 @@ hd.addEventListener('click',change_bg);
 //     --border_color:#ccc:
 // }
 
-let n = 13;
+let n = 39;
 let h_c = Math.floor(Math.random()*(n+1));
 
 const change_h = () => {
@@ -66,10 +66,62 @@ const change_h = () => {
         break;   
     case 11:hm.innerHTML="<p>stay cool</p>";
         break;
-    case 12:hm.innerHTML="<p>不认输，不逃避，世上没有不停的雨。</p>";
+    case 12:hm.innerHTML="<p>临渊羡鱼，不如退而结网。</p>";
         break; 
-    case 13:hm.innerHTML="<p>如果你愿意相信自己，再施一点点小魔法，你的梦想就全都会实现。</p>";
-        break;          
+    case 13:hm.innerHTML="<p>我准备好了，我准备好了，我准备好了…</p>";
+        break;  
+    case 14:hm.innerHTML="<p>每个人的心中都有一个风筝，不管那意味着什么，让我们勇敢地去追。</p>";
+        break; 
+    case 15:hm.innerHTML="<p>上帝总要拿去你什么东西的时候，先给你足够的快乐。</p>";
+        break;   
+    case 16:hm.innerHTML="<p>当罪恶导致善行，那就是最大的救赎。</p>";
+        break;
+    case 17:hm.innerHTML="<p>世界上最宽阔的是海洋，比海洋更宽阔的是天空，比天空更宽阔的是人的胸怀。</p>";
+        break; 
+    case 18:hm.innerHTML="<p>人，有了物质才能生存；人，有了理想才谈得上生活。</p>";
+        break;   
+    case 19:hm.innerHTML="<p>竹杖芒鞋轻胜马，谁怕，一蓑烟雨任平生！</p>";
+        break; 
+    case 20:hm.innerHTML="<p>试问岭南应不好，却道：此心安处是吾乡！</p>";
+        break;   
+    case 21:hm.innerHTML="<p>十年生死两茫茫，不思量，自难忘，千里孤坟，无处话凄凉。</p>";
+        break;
+    case 22:hm.innerHTML="<p>休对故人思故国，且将新火试新茶，诗酒趁年华。</p>";
+        break; 
+    case 23:hm.innerHTML="<p>惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭。</p>";
+        break;      
+    case 24:hm.innerHTML="<p>星星之火，可以燎原。</p>";
+        break; 
+    case 25:hm.innerHTML="<p>没有调查就没有发言权！没有正确的调查，同样没有发言权。</p>";
+        break;   
+    case 26:hm.innerHTML="<p>与天奋斗，其乐无穷！与地奋斗，其乐无穷！与人奋斗，其乐无穷！</p>";
+        break; 
+    case 27:hm.innerHTML="<p>虚心使人进步，骄傲使人落后。</p>";
+        break;   
+    case 28:hm.innerHTML="<p>天若有情天亦老，人间正道是沧桑。</p>";
+        break;
+    case 29:hm.innerHTML="<p>不管风吹浪打，胜似闲庭信步</p>";
+        break; 
+    case 30:hm.innerHTML="<p>牢骚太盛防肠断，风物长宜放眼量。</p>";
+        break;
+    case 31:hm.innerHTML="<p>我们都有责任去引导年轻人，以防他们走上不归路，变得支离破碎，自暴自弃。</p>";
+        break;
+    case 32:hm.innerHTML="<p>记着，希望是个好东西，也许是世间最好的东西，好东西从不会逝去。</p>";
+        break; 
+    case 33:hm.innerHTML="<p>监狱里的高墙实在是很有趣。刚入狱的时候，你痛恨周围的高墙；慢慢地，你习惯了生活在其中；最终你会发现自己不得不依靠它而生存。这就是体制化。</p>";
+        break;      
+    case 34:hm.innerHTML="<p>生命就像一盒巧克力，结果往往出人意料。</p>";
+        break; 
+    case 35:hm.innerHTML="<p>放下包袱，继续前进。</p>";
+        break;   
+    case 36:hm.innerHTML="<p>没有人能让你不快乐，是你自己选择了不快乐。作为成年人，理应为自己的行为和情绪负责，从中体会到自己的力量。</p>";
+        break; 
+    case 37:hm.innerHTML="<p>重要的，珍惜的，一直在身边，一旦成为理所当然，就难以发现。</p>";
+        break;   
+    case 38:hm.innerHTML="<p>不能只被外表所蒙蔽哦。</p>";
+        break;
+    case 39:hm.innerHTML="<p>我喜欢早上起来时一切都是未知的，不知会遇见什么人，会有什么样的结局。</p>";
+        break; 
   }
 }
 hbtn.addEventListener("click",change_h);
