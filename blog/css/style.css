@@ -137,7 +137,7 @@ section{
 
 .banner{
     min-height: 80vh;
-    background:url(../images/banner.png) no-repeat;
+    background:url(https://i.imgtg.com/2022/11/15/tgcDK.png) no-repeat;/*../images/banner.png*/
     background-size: cover;
     background-position: center;
     display: grid;
@@ -381,7 +381,7 @@ section{
 }
 
 .contact{
-    background:url(../images/contact-bg.jpg) no-repeat;
+    background:url(https://i.imgtg.com/2022/11/15/tg0ns.jpg) no-repeat;/*../images/contact-bg.jpg*/
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
