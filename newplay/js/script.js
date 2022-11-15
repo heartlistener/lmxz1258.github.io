@@ -22,7 +22,7 @@ let allMusic =[
       artist:"Valentin",
     },
     {
-    src : "https://lmxz1258.github.io/newplay/music/Back To December",
+    src : "music/Back To December",
     name : "Back To December",
     artist:"Taylor Swift",
     },
@@ -47,7 +47,7 @@ let allMusic =[
     artist:"Hoaprox",
     },
     {
-    src:"https://lmxz1258.github.io/newplay/music/Hope",
+    src:"music/Hope",
     name : "Hope",
     artist:"安室奈美恵",
     },
@@ -92,7 +92,7 @@ let allMusic =[
     artist:"Martin Garrix、David Guetta",
     },
     {
-    src:"https://lmxz1258.github.io/newplay/music/The Calling",
+    src:"music/The Calling",
     name : "The Calling",
     artist:"TheFatRat、Laura Brehm", 
     },
@@ -112,17 +112,17 @@ let allMusic =[
     artist:"中川翔子",
     },
     {
-    src:"https://lmxz1258.github.io/newplay/music/大人",
+    src:"music/大人",
     name : "大人",
     artist:"Sondia", 
     },
     {
-    src:"https://lmxz1258.github.io/newplay/music/晴天",
+    src:"music/晴天",
     name : "晴天",
     artist:"周杰伦", 
     },
     {
-    src:"https://lmxz1258.github.io/newplay/music/十代之曲",
+    src:"music/十代之曲",
     name : "十代之曲",
     artist:"蓑部雄崇", 
     },
@@ -137,7 +137,7 @@ let allMusic =[
     artist:"吴青峰",
     },
     {
-    src:"https://lmxz1258.github.io/newplay/music/天空中闪烁着光", 
+    src:"music/天空中闪烁着光", 
     name : "天空中闪烁着光",
     artist:"铃汐", 
     },
@@ -157,7 +157,7 @@ let allMusic =[
     artist:"排骨教主", 
     },
     {
-    src:"https://lmxz1258.github.io/newplay/music/有彩虹",
+    src:"music/有彩虹",
     name : "有彩虹",
     artist:"빈센트 블루", 
     },
