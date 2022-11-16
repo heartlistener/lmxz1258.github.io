@@ -124,12 +124,13 @@ html{
 }
 .img{
     display: flex;
-    margin-left: 5%;
-    margin-right:5%;
-    margin-bottom: 2.5%;
-    width:90%;
+    flex-direction:column;
+    margin-left: 2.5%;
+    margin-right:2.5%;
+    width:95%;
     height: 97.5%;
     background-color: #111;
+    
 }
 .content{
     display: flex;
